@@ -16,7 +16,7 @@ def fib(n):
     return result
 
 def main():
-    print "Let's see some Fibonacci numbers!"
-    for n in xrange(0, 10):
-        print n, ':', fib(n)
-    print "I feel happy and innocent!"
+    print ("Let's see some Fibonacci numbers!")
+    for n in range(0, 10):
+        print (n, ':', fib(n))
+    print ("I feel happy and innocent!")

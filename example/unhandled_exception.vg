@@ -5,7 +5,7 @@ def say_hello(who):
     Greets 'who'.
     """
 
-    print "Hi,", who
+    print ("Hi,", who)
     raise Exception("ERROR!") # Oops.
 
 def innocent_fn():
